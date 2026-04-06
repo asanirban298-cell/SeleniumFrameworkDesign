@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-03T12:41:13 IST" name="Suite" finished-at="2026-04-03T12:41:50 IST" duration-ms="37595">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" name="validateError" class="anirbansarkar.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" name="submitOrder" class="anirbansarkar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" name="orderHistoryTest" class="anirbansarkar.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-04-03T12:41:13 IST" name="Error Validations Test" finished-at="2026-04-03T12:41:34 IST" duration-ms="21363">
+      <class name="anirbansarkar.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:13 IST" name="launchApplication" finished-at="2026-04-03T12:41:23 IST" duration-ms="9733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:23 IST" name="validateError" finished-at="2026-04-03T12:41:24 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:24 IST" name="closeBrowser" finished-at="2026-04-03T12:41:24 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:24 IST" name="launchApplication" finished-at="2026-04-03T12:41:30 IST" duration-ms="5964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateProductError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:30 IST" name="validateProductError" finished-at="2026-04-03T12:41:34 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:34 IST" name="closeBrowser" finished-at="2026-04-03T12:41:34 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- anirbansarkar.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2026-04-03T12:41:13 IST" name="Submit Order Test" finished-at="2026-04-03T12:41:50 IST" duration-ms="37595">
+      <class name="anirbansarkar.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:14 IST" name="launchApplication" finished-at="2026-04-03T12:41:23 IST" duration-ms="8978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:23 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-03T12:41:28 IST" duration-ms="5281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:28 IST" name="closeBrowser" finished-at="2026-04-03T12:41:28 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:28 IST" name="launchApplication" finished-at="2026-04-03T12:41:35 IST" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:35 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-03T12:41:39 IST" duration-ms="4451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:39 IST" name="closeBrowser" finished-at="2026-04-03T12:41:39 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:39 IST" name="launchApplication" finished-at="2026-04-03T12:41:43 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:43 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-03T12:41:44 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:44 IST" name="closeBrowser" finished-at="2026-04-03T12:41:44 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:44 IST" name="launchApplication" finished-at="2026-04-03T12:41:49 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:49 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-03T12:41:50 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:50 IST" name="closeBrowser" finished-at="2026-04-03T12:41:50 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- anirbansarkar.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
