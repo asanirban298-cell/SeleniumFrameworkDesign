@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-03T12:41:13 IST" name="Suite" finished-at="2026-04-03T12:41:50 IST" duration-ms="37595">
+  <suite started-at="2026-04-09T12:41:17 IST" name="Suite" finished-at="2026-04-09T12:42:06 IST" duration-ms="49440">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" name="validateError" class="anirbansarkar.tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" name="validateError" class="anirbansarkar.tests.ErrorValidationsTest"/>
       </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" name="submitOrder" class="anirbansarkar.tests.SubmitOrderTest"/>
-        <method signature="SubmitOrderTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" name="orderHistoryTest" class="anirbansarkar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" name="submitOrder" class="anirbansarkar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" name="orderHistoryTest" class="anirbansarkar.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2026-04-03T12:41:13 IST" name="Error Validations Test" finished-at="2026-04-03T12:41:34 IST" duration-ms="21363">
+    <test started-at="2026-04-09T12:41:17 IST" name="Error Validations Test" finished-at="2026-04-09T12:41:50 IST" duration-ms="33748">
       <class name="anirbansarkar.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:13 IST" name="launchApplication" finished-at="2026-04-03T12:41:23 IST" duration-ms="9733" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:17 IST" name="launchApplication" finished-at="2026-04-09T12:41:32 IST" duration-ms="15494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:23 IST" name="validateError" finished-at="2026-04-03T12:41:24 IST" duration-ms="1475" status="PASS">
+        <test-method signature="validateError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:32 IST" name="validateError" finished-at="2026-04-09T12:41:34 IST" duration-ms="2200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:24 IST" name="closeBrowser" finished-at="2026-04-03T12:41:24 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:34 IST" name="closeBrowser" finished-at="2026-04-09T12:41:35 IST" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:24 IST" name="launchApplication" finished-at="2026-04-03T12:41:30 IST" duration-ms="5964" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:35 IST" name="launchApplication" finished-at="2026-04-09T12:41:43 IST" duration-ms="8117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateProductError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:30 IST" name="validateProductError" finished-at="2026-04-03T12:41:34 IST" duration-ms="3646" status="PASS">
+        <test-method signature="validateProductError()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:43 IST" name="validateProductError" finished-at="2026-04-09T12:41:50 IST" duration-ms="6680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProductError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@606e4010]" started-at="2026-04-03T12:41:34 IST" name="closeBrowser" finished-at="2026-04-03T12:41:34 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.ErrorValidationsTest@5b218417]" started-at="2026-04-09T12:41:50 IST" name="closeBrowser" finished-at="2026-04-09T12:41:50 IST" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- anirbansarkar.tests.ErrorValidationsTest -->
     </test> <!-- Error Validations Test -->
-    <test started-at="2026-04-03T12:41:13 IST" name="Submit Order Test" finished-at="2026-04-03T12:41:50 IST" duration-ms="37595">
+    <test started-at="2026-04-09T12:41:17 IST" name="Submit Order Test" finished-at="2026-04-09T12:42:06 IST" duration-ms="49440">
       <class name="anirbansarkar.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:14 IST" name="launchApplication" finished-at="2026-04-03T12:41:23 IST" duration-ms="8978" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:41:18 IST" name="launchApplication" finished-at="2026-04-09T12:41:30 IST" duration-ms="12481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:23 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-03T12:41:28 IST" duration-ms="5281" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:41:30 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-09T12:41:42 IST" duration-ms="12148" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,18 +54,83 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67d549ba6f505e10797a69505939a3d, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50706}, goog:processID: 4136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50706/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f67d549ba6f505e10797a69505939a3d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67d549ba6f505e10797a69505939a3d, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50706}, goog:processID: 4136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50706/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f67d549ba6f505e10797a69505939a3d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at anirbansarkar.pageObjects.RegistrationPage.fillFirstName(RegistrationPage.java:62)
+at anirbansarkar.pageObjects.RegistrationPage.registerUser(RegistrationPage.java:136)
+at anirbansarkar.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:28 IST" name="closeBrowser" finished-at="2026-04-03T12:41:28 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:41:44 IST" name="closeBrowser" finished-at="2026-04-09T12:41:45 IST" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:28 IST" name="launchApplication" finished-at="2026-04-03T12:41:35 IST" duration-ms="6269" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:41:45 IST" name="launchApplication" finished-at="2026-04-09T12:41:55 IST" duration-ms="9393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:35 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-03T12:41:39 IST" duration-ms="4451" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:41:55 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-09T12:42:05 IST" duration-ms="10114" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -73,51 +138,106 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beb0508987edcfcb15e6770bc1c43abb, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50780}, goog:processID: 4178, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50780/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: beb0508987edcfcb15e6770bc1c43abb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beb0508987edcfcb15e6770bc1c43abb, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50780}, goog:processID: 4178, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50780/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: beb0508987edcfcb15e6770bc1c43abb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at anirbansarkar.pageObjects.RegistrationPage.fillFirstName(RegistrationPage.java:62)
+at anirbansarkar.pageObjects.RegistrationPage.registerUser(RegistrationPage.java:136)
+at anirbansarkar.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:39 IST" name="closeBrowser" finished-at="2026-04-03T12:41:39 IST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:42:06 IST" name="closeBrowser" finished-at="2026-04-09T12:42:06 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:39 IST" name="launchApplication" finished-at="2026-04-03T12:41:43 IST" duration-ms="3938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:43 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-03T12:41:44 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@229c6181]" started-at="2026-04-09T12:42:06 IST" name="orderHistoryTest" finished-at="2026-04-09T12:42:06 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method anirbansarkar.tests.SubmitOrderTest.orderHistoryTest() on instance anirbansarkar.tests.SubmitOrderTest@229c6181 depends on not successfully finished methods 
+[anirbansarkar.tests.SubmitOrderTest.submitOrder() on instance anirbansarkar.tests.SubmitOrderTest@229c6181]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method anirbansarkar.tests.SubmitOrderTest.orderHistoryTest() on instance anirbansarkar.tests.SubmitOrderTest@229c6181 depends on not successfully finished methods 
+[anirbansarkar.tests.SubmitOrderTest.submitOrder() on instance anirbansarkar.tests.SubmitOrderTest@229c6181]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:44 IST" name="closeBrowser" finished-at="2026-04-03T12:41:44 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:44 IST" name="launchApplication" finished-at="2026-04-03T12:41:49 IST" duration-ms="5005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:49 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-03T12:41:50 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1085" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@25641d39]" started-at="2026-04-03T12:41:50 IST" name="closeBrowser" finished-at="2026-04-03T12:41:50 IST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- anirbansarkar.tests.SubmitOrderTest -->
     </test> <!-- Submit Order Test -->
   </suite> <!-- Suite -->

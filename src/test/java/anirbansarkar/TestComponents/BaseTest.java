@@ -1,6 +1,9 @@
 package anirbansarkar.TestComponents;
 
 import java.io.File;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -21,6 +24,7 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import anirbansarkar.Utilities.Log;
 import anirbansarkar.pageObjects.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import tools.jackson.core.type.TypeReference;
@@ -31,6 +35,9 @@ public class BaseTest {
 	public WebDriver driver;
 	public LandingPage lp;
 	Properties prop;
+	public static String SCREENSHOT_FOLDER;
+	public static int count = 1;
+	public static String testCaseName;
 
 	public WebDriver initializeDriver() throws IOException {
 
@@ -48,24 +55,26 @@ public class BaseTest {
 			// Chrome driver initialization code
 			WebDriverManager.chromedriver().setup();
 			if (browserName.contains("headless")) {
+				System.out.println("Headless execution goig on...");
 				options.addArguments("--headless=new");
 				options.addArguments("--disable-gpu");
 
-			    options.addArguments("--window-size=1920,1080");
+				options.addArguments("--window-size=1920,1080");
 
-			    options.addArguments("--no-sandbox");
+				options.addArguments("--no-sandbox");
 
-			    options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--disable-dev-shm-usage");
 
-			    options.addArguments("--start-maximized");
+				options.addArguments("--start-maximized");
 
-			    options.addArguments("--disable-infobars");
+				options.addArguments("--disable-infobars");
 
-			    options.addArguments("--disable-extensions");
+				options.addArguments("--disable-extensions");
 			}
 
 			driver = new ChromeDriver(options);
-			//driver.manage().window().setSize(new Dimension(1440, 900));// Recommended for
+			Log.info("Driver set");
+			driver.manage().window().setSize(new Dimension(1920, 1080));// Recommended for
 			// headless for flaky tests
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
@@ -128,7 +137,22 @@ public class BaseTest {
 	public void closeBrowser() {
 
 		driver.close();
+		Log.info("Browser closed.");
 
+	}
+
+	public String getPicture() throws IOException {
+		String timestamp = new SimpleDateFormat("yyyyMMdd").format(new Date());
+		SCREENSHOT_FOLDER = System.getProperty("user.dir") + File.separator + "screenshots" + File.separator
+				+ testCaseName + "_" + timestamp;
+		new File(SCREENSHOT_FOLDER).mkdirs();
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		String fileName = "Step" + count + ".png";
+		count++;
+		File dest = new File(SCREENSHOT_FOLDER + File.separator + fileName);
+		FileHandler.copy(src, dest);
+		return dest.getAbsolutePath();
 	}
 
 }

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [GridSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="anirbansarkar.tests.SubmitOrderTest">
         <methods>
-          <include name="setup"/>
+          <include name="launchApplication"/>
           <include name="orderHistoryTest"/>
-          <include name="initializeDriver"/>
           <include name="closeBrowser"/>
-          <include name="submitOrder"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- anirbansarkar.tests.SubmitOrderTest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
-</suite> <!-- Failed suite [GridSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

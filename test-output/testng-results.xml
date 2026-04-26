@@ -2,38 +2,20 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-04T12:08:53 IST" name="GridSuite" finished-at="2026-04-04T12:10:28 IST" duration-ms="95071">
+  <suite started-at="2026-04-20T13:18:20 IST" name="Default suite" finished-at="2026-04-20T13:20:14 IST" duration-ms="113764">
     <groups>
       <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" name="submitOrder" class="anirbansarkar.tests.SubmitOrderTest"/>
-        <method signature="SubmitOrderTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" name="orderHistoryTest" class="anirbansarkar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" name="submitOrder" class="anirbansarkar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" name="orderHistoryTest" class="anirbansarkar.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2026-04-04T12:08:53 IST" name="ChromeTest" finished-at="2026-04-04T12:10:28 IST" duration-ms="95071">
+    <test started-at="2026-04-20T13:18:20 IST" name="Default test" finished-at="2026-04-20T13:20:14 IST" duration-ms="113764">
       <class name="anirbansarkar.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:08:53 IST" name="initializeDriver" finished-at="2026-04-04T12:08:58 IST" duration-ms="4511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:18:20 IST" name="launchApplication" finished-at="2026-04-20T13:19:05 IST" duration-ms="44795" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:08:58 IST" name="setup" finished-at="2026-04-04T12:08:59 IST" duration-ms="1088" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:08:59 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-04T12:09:04 IST" duration-ms="5143" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:05 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-20T13:19:11 IST" duration-ms="6207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,33 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:04 IST" name="closeBrowser" finished-at="2026-04-04T12:09:04 IST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:11 IST" name="closeBrowser" finished-at="2026-04-20T13:19:12 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:04 IST" name="initializeDriver" finished-at="2026-04-04T12:09:07 IST" duration-ms="3284" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:12 IST" name="launchApplication" finished-at="2026-04-20T13:19:37 IST" duration-ms="25145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:07 IST" name="setup" finished-at="2026-04-04T12:09:09 IST" duration-ms="1329" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:09 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-04T12:09:14 IST" duration-ms="4901" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:37 IST" name="submitOrder" data-provider="getData" finished-at="2026-04-20T13:19:42 IST" duration-ms="5318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,33 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:14 IST" name="closeBrowser" finished-at="2026-04-04T12:09:14 IST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:42 IST" name="closeBrowser" finished-at="2026-04-20T13:19:42 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:09:14 IST" name="initializeDriver" finished-at="2026-04-04T12:10:19 IST" duration-ms="65526" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:42 IST" name="launchApplication" finished-at="2026-04-20T13:19:59 IST" duration-ms="16338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:19 IST" name="setup" finished-at="2026-04-04T12:10:20 IST" duration-ms="1111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:20 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-04T12:10:22 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1479" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:19:59 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-20T13:20:01 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1818" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,33 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:22 IST" name="closeBrowser" finished-at="2026-04-04T12:10:22 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:20:01 IST" name="closeBrowser" finished-at="2026-04-20T13:20:01 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:22 IST" name="initializeDriver" finished-at="2026-04-04T12:10:25 IST" duration-ms="3406" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:20:01 IST" name="launchApplication" finished-at="2026-04-20T13:20:11 IST" duration-ms="10590" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:25 IST" name="setup" finished-at="2026-04-04T12:10:27 IST" duration-ms="1128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:27 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-04T12:10:28 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1094" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:20:11 IST" name="orderHistoryTest" data-provider="getData" finished-at="2026-04-20T13:20:13 IST" depends-on-methods="anirbansarkar.tests.SubmitOrderTest.submitOrder" duration-ms="1768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,11 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@7586beff]" started-at="2026-04-04T12:10:28 IST" name="closeBrowser" finished-at="2026-04-04T12:10:28 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:anirbansarkar.tests.SubmitOrderTest@4cc451f2]" started-at="2026-04-20T13:20:13 IST" name="closeBrowser" finished-at="2026-04-20T13:20:14 IST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- anirbansarkar.tests.SubmitOrderTest -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- GridSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

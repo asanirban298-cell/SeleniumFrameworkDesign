@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="orderHistoryTest">orderHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,26 +134,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="orderHistoryTest({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">orderHistoryTest({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="orderHistoryTest({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">orderHistoryTest({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="anirbansarkar.tests.ErrorValidationsTest" class="method navigator-link" hash-for-method="validateError">validateError</a> <!-- method navigator-link -->
@@ -143,6 +156,120 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">anirbansarkar.tests.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">
+                  </a> <!-- submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#firstName&quot;}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beb0508987edcfcb15e6770bc1c43abb, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50780}, goog:processID: 4178, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50780/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: beb0508987edcfcb15e6770bc1c43abb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at anirbansarkar.pageObjects.RegistrationPage.fillFirstName(RegistrationPage.java:62)
+	at anirbansarkar.pageObjects.RegistrationPage.registerUser(RegistrationPage.java:136)
+	at anirbansarkar.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">
+                  </a> <!-- submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#firstName&quot;}
+  (Session info: chrome=146.0.7680.180)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67d549ba6f505e10797a69505939a3d, findElement {using=id, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /var/folders/vy/cb3vy27j485...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50706}, goog:processID: 4136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50706/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f67d549ba6f505e10797a69505939a3d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at anirbansarkar.pageObjects.RegistrationPage.fillFirstName(RegistrationPage.java:62)
+	at anirbansarkar.pageObjects.RegistrationPage.registerUser(RegistrationPage.java:136)
+	at anirbansarkar.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">anirbansarkar.tests.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderHistoryTest">
+                  </a> <!-- orderHistoryTest -->
+                  <span class="method-name">orderHistoryTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method anirbansarkar.tests.SubmitOrderTest.orderHistoryTest() on instance anirbansarkar.tests.SubmitOrderTest@229c6181 depends on not successfully finished methods 
+[anirbansarkar.tests.SubmitOrderTest.submitOrder() on instance anirbansarkar.tests.SubmitOrderTest@229c6181]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,46 +288,6 @@
                   <a name="validateProductError">
                   </a> <!-- validateProductError -->
                   <span class="method-name">validateProductError</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">anirbansarkar.tests.SubmitOrderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="orderHistoryTest({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">
-                  </a> <!-- orderHistoryTest({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}) -->
-                  <span class="method-name">orderHistoryTest</span>
-                  <span class="parameters">({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="orderHistoryTest({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">
-                  </a> <!-- orderHistoryTest({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}) -->
-                  <span class="method-name">orderHistoryTest</span>
-                  <span class="parameters">({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})">
-                  </a> <!-- submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})">
-                  </a> <!-- submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,36 +375,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'anirbansarkar.tests.SubmitOrderTest')
-data.setCell(0, 3, 5281);
+data.setCell(0, 3, 12148);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'submitOrder')
 data.setCell(1, 2, 'anirbansarkar.tests.SubmitOrderTest')
-data.setCell(1, 3, 4451);
+data.setCell(1, 3, 10114);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateProductError')
 data.setCell(2, 2, 'anirbansarkar.tests.ErrorValidationsTest')
-data.setCell(2, 3, 3646);
+data.setCell(2, 3, 6680);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateError')
 data.setCell(3, 2, 'anirbansarkar.tests.ErrorValidationsTest')
-data.setCell(3, 3, 1475);
+data.setCell(3, 3, 2200);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'orderHistoryTest')
 data.setCell(4, 2, 'anirbansarkar.tests.SubmitOrderTest')
-data.setCell(4, 3, 1085);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'orderHistoryTest')
-data.setCell(5, 2, 'anirbansarkar.tests.SubmitOrderTest')
-data.setCell(5, 3, 1039);
+data.setCell(4, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -353,89 +436,63 @@ return data;
               <div class="chronological-class-name">anirbansarkar.tests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">996 ms</span>
+                <span class="method-start">930 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
+                <span class="method-start">13414 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">anirbansarkar.tests.ErrorValidationsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateError</span>
-                <span class="method-start">9742 ms</span>
+                <span class="method-start">15497 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">anirbansarkar.tests.SubmitOrderTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">submitOrder({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
-                <span class="method-start">9974 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">anirbansarkar.tests.ErrorValidationsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">11341 ms</span>
+                <span class="method-start">17728 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">11524 ms</span>
+                <span class="method-start">18326 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">anirbansarkar.tests.SubmitOrderTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">15256 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">15398 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">anirbansarkar.tests.ErrorValidationsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateProductError</span>
-                <span class="method-start">17488 ms</span>
+                <span class="method-start">26443 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">anirbansarkar.tests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21140 ms</span>
+                <span class="method-start">27782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">28525 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">anirbansarkar.tests.ErrorValidationsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33125 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">anirbansarkar.tests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitOrder({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</span>
-                <span class="method-start">21667 ms</span>
+                <span class="method-start">37918 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">26121 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">26230 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">orderHistoryTest({password=sA2!091959, email=asanirban298@gmail.com, order=ZARA COAT 3})</span>
-                <span class="method-start">30169 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">31209 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">31297 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">orderHistoryTest({password=sA2!091959, email=asanirban298@live.com, order=ADIDAS ORIGINAL})</span>
-                <span class="method-start">36302 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">37388 ms</span>
+                <span class="method-start">48979 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

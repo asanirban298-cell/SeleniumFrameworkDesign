@@ -11,6 +11,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import anirbansarkar.Utilities.Log;
 import anirbansarkar.resources.ExtentReporterNG;
 
 public class Listeners extends BaseTest implements ITestListener {
@@ -37,6 +38,7 @@ public class Listeners extends BaseTest implements ITestListener {
 		// TODO Auto-generated method stub
 		// Log Failure error
 		String filePath = null;
+		Log.info("Failing "+result.getMethod().getMethodName());
 		tl.get().fail(result.getThrowable());
 		// Retrieve the driver
 		try {
@@ -52,6 +54,7 @@ public class Listeners extends BaseTest implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		Log.info("Adding screenshot...");
 		tl.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
 	}
 
